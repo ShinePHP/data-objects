@@ -12,4 +12,9 @@
             "ShinePHP\\": "src/ShinePHP/"
         }
     },
+    "autoload-dev": {
+      "psr-4": {
+        "ShinePHPTest\\": "tests/units/ShinePHPTest/"
+      }
+    }
 }
