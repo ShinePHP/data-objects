@@ -1,0 +1,15 @@
+{
+    "name": "shinephp/data-objects",
+    "description": "The data object repo for all of the ShinePHP repos",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShinePHP\\": "src/ShinePHP/"
+        }
+    },
+}
