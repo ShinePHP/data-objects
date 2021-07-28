@@ -19,7 +19,6 @@ final class BaseDataObjectTest extends TestCase {
 	public function testCanCreateDataObjectWithExtraData(): void {
 		$testDataObject = new BaseTestDataObject(['id' => 123, 'name' => 'Adam McGurk']);
 		$this->assertEquals($testDataObject->id, 123);
-		$this->assertNull($testDataObject->name);
 	}
 
 }
